@@ -1,0 +1,19 @@
+{
+  "name": "blockchain-based-authentication",
+  "version": "1.0.0",
+  "description": "This project shows how the use of Blockchain allows to create a Blockchain-based authentication where the user's login data hash is stored in a smart contract.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "cd client && npm start",
+    "deploy": "truffle migrate --network development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
